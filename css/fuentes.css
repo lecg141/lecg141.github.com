@@ -1,0 +1,19 @@
+@font-face {
+  font-family:arial;
+  src:url(../fuentes/arial/arial.ttf);
+}
+
+@font-face {
+  font-family:arialbd;
+  src:url(../fuentes/arial/arialbd.ttf);
+}
+
+@font-face {
+  font-family:gothic;
+  src:url(../fuentes/gothic/GOTHIC.ttf);
+}
+
+@font-face {
+  font-family:gothicb;
+  src:url(../fuentes/gothic/GOTHICB.ttf);
+}

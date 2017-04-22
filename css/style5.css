@@ -1,0 +1,160 @@
+@import url('normalize.css');
+@import url('fuentes.css');
+*{margin:0;padding:0;}
+
+/*--Estilos Generales--*/
+
+
+/*--Header--*/
+header {
+  width:100%;
+  overflow:hidden;
+  position: absolute;
+  background:#000;
+  margin-bottom:20px;
+}
+
+.wrapper {
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+  overflow: hidden;
+}
+
+.wrapper2 {
+  width:90%;
+  max-width:700px;
+  margin:auto;
+  overflow: hidden;
+}
+
+header .logo {
+  margin: 15px 0px;
+  line-height: 10px;
+  float:left;
+}
+
+header nav {
+  float: right;
+  margin:15px 0px;
+}
+
+header nav a {
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  padding:5px 20px;
+  line-height:normal;
+  font-size:16px;
+  font-family:gothic;
+}
+
+header nav a:hover {
+  color:#C80000;
+}
+
+.header2 {
+  position: fixed;
+  width:100%;
+}
+
+.header2 .logo {
+  float:left;
+}
+
+.header2 nav {
+  float: right;
+}
+
+
+@media screen and (max-width:950px) {
+  header .logo,
+  header nav {
+    width:100%;
+    text-align:center;
+    margin:12px 0px;
+  }
+}
+
+/*--Contenido--*/
+.titulo {
+  color: #C80000;
+  padding-top: 100px;
+  font-family: gothicb;
+  font-size: 30px;
+}
+
+.line {
+  color: #C80000;
+  width: 20%;
+  noshade:noshade;
+}
+
+.I {
+  padding: 20px 470px;
+}
+p {
+  padding-top: 10px;
+  font-family: gothic;
+  text-align: justify;
+}
+
+.lecg {
+  font-family: gothicb;
+}
+p a {
+  color: #000;
+  font-family: gothicb;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #ff0000;
+}
+
+h3 {
+  padding-top: 20px;
+  font-family: gothicb;
+  color: #C80000;
+  text-align: center;
+}
+
+/*--FOOTER--*/
+footer {
+  width:100%;
+  height: 50px;
+  float:left;
+  bottom:0;
+  position: inherit;
+  clear:both;
+  background:#000;
+}
+
+footer #redes > div {
+  width:35px;
+  height:35px;
+  float:left;
+}
+
+footer #redes > div a {
+  width:35px;
+  height:35px;
+  display:inline-block;
+}
+
+footer #redes .linkedin {
+  position: left;
+  margin: 7px 650px;
+}
+
+footer #redes .behance {
+    position: right;
+  margin: 7px -650px;
+}
+
+footer img {
+  opacity: 0.5;
+}
+footer img:hover {
+  opacity: 1;
+}
