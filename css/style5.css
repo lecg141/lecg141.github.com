@@ -126,7 +126,8 @@ footer {
   height: 50px;
   float:left;
   bottom:0;
-  position: inherit;
+  overflow:hidden;
+  position: static;
   clear:both;
   background:#000;
 }
